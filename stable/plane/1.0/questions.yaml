@@ -1,0 +1,15 @@
+groups:
+  - name: "Test"
+    description: "Test"
+
+
+questions:
+  - variable: test
+    label: "tet"
+    group: Test
+    schema:
+      type: int
+      min: 8000
+      max: 65535
+      default: 10000
+      required: true
